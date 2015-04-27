@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.source_files = 'HIPSocialAuth/*.{h,m}'
   s.requires_arc = true
   s.dependency 'Facebook-iOS-SDK', '~> 3.10'
+  s.dependency 'Fabric', '~> 1.2'
+  s.dependency 'Fabric/Twitter', '~> 1.2'
 end
