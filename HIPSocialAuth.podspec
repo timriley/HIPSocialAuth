@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.dependency 'Facebook-iOS-SDK', '~> 3.10'
   s.dependency 'Fabric', '~> 1.2'
   s.dependency 'Fabric/Twitter', '~> 1.2'
-  s.frameworks = 'Fabric', 'TwitterKit'
+  s.weak_frameworks = 'Fabric', 'TwitterKit'
 end
